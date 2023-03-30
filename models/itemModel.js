@@ -19,7 +19,8 @@ const schema = new mongoose.Schema(
     contractType: { type: String },
     collectionSlug: { type: String },
     quantity: { type: Number },
-    endDuration: { type: String },
+    startTime: { type: String },
+    endTime: { type: String },
     owned:{type : String},
     rank: { type: Number },
     project: {
